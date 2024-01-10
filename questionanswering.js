@@ -1,6 +1,5 @@
 import { HfInference } from "@huggingface/inference";
 import dotenv from "dotenv";
-import fetch from "node-fetch";
 dotenv.config();
 
 const HF_TOKEN = process.env.HF_TOKEN
